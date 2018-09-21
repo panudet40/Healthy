@@ -29,7 +29,7 @@
             android:ems="10"
             android:textSize="25dp"
             android:hint="Height (cm.)"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/bmi_weight"
@@ -39,14 +39,14 @@
             android:ems="10"
             android:textSize="25dp"
             android:hint="Weight (Kg.)"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <Button
             android:id="@+id/bmi_calculate"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Login" />
+            android:text="Calculate" />
 
         <TextView
             android:id="@+id/bmi_answer"

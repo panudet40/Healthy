@@ -24,7 +24,7 @@
             android:ems="10"
             android:textSize="25dp"
             android:hint="Date (dd-MM-yyyy)"
-            android:inputType="number" />
+            android:inputType="date" />
 
         <EditText
             android:id="@+id/weight_from_weight"
@@ -34,7 +34,7 @@
             android:ems="10"
             android:textSize="25dp"
             android:hint="Weight (Kg.)"
-            android:inputType="date" />
+            android:inputType="number" />
 
         <Button
             android:id="@+id/weight_from_btn"
