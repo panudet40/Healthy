@@ -1,4 +1,6 @@
 package com.example.healthy.boom.healthy.weight;
 
-public class WeightFromFragment {
+import android.support.v4.app.Fragment;
+
+public class WeightFromFragment extends Fragment {
 }
