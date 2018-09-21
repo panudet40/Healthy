@@ -16,13 +16,16 @@
             <Button
                 android:text="Add Weight"
                 android:id="@+id/fragment_weight_history_btn"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"/>
 
             <ListView
                 android:id="@+id/fragment_weight_history_list"
-                android:layout_width="match_parent"
-                android:layout_height="573dp">
+                android:layout_width="365dp"
+                android:layout_height="573dp"
+                android:layout_gravity="center">
             </ListView>
 
 
