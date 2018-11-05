@@ -12,6 +12,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.healthy.boom.healthy.Sleep.SleepFormFragment;
+import com.example.healthy.boom.healthy.Sleep.SleepHistoryFragment;
 import com.example.healthy.boom.healthy.weight.WeightFromFragment;
 import com.example.healthy.boom.healthy.weight.WeightHistoryFragment;
 import com.google.firebase.auth.FirebaseAuth;
@@ -31,6 +33,8 @@ public class MenuFragment extends Fragment {
         _menu.add("BMI");
         _menu.add("Add Weight");
         _menu.add("Weight History");
+        _menu.add("Add Sleep");
+        _menu.add("Sleep History");
         _menu.add("Logout");
     }
 
@@ -96,6 +100,22 @@ public class MenuFragment extends Fragment {
                             .getSupportFragmentManager()
                             .beginTransaction()
                             .replace(R.id.main_view, new WeightHistoryFragment())
+                            .addToBackStack(null)
+                            .commit()
+                    ;
+                } else if (position == 3) {
+                    getActivity()
+                            .getSupportFragmentManager()
+                            .beginTransaction()
+                            .replace(R.id.main_view, new SleepFormFragment())
+                            .addToBackStack(null)
+                            .commit()
+                    ;
+                } else if (position == 4) {
+                    getActivity()
+                            .getSupportFragmentManager()
+                            .beginTransaction()
+                            .replace(R.id.main_view, new SleepHistoryFragment())
                             .addToBackStack(null)
                             .commit()
                     ;

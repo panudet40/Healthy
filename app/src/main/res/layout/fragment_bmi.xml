@@ -16,10 +16,8 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="345dp"
-            app:srcCompat="@drawable/bmi_pic"
-            tools:layout_editor_absoluteX="121dp"
-            tools:layout_editor_absoluteY="39dp" />
+            android:layout_height="286dp"
+            app:srcCompat="@drawable/bmi_pic" />
 
         <EditText
             android:id="@+id/bmi_height"
